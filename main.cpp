@@ -23,6 +23,8 @@ int results(char a[3][3]);
 
 void tictac::newgame()
 {
+    
+    cout<<"Hello world"
 a[1][1]='a';
 a[1][2]='b';
 a[1][3]='c';
@@ -135,21 +137,6 @@ void tictac::get()
 
                display(a);
                 break;
-
-    case 'e': if(flag==0)
-                {
-                  a[2][2]='X';
-                    flag++;
-                }
-                else
-                    {
-                     a[2][2]='O';
-                     flag--;
-                    }
-
-                display(a);
-                break;
-
     case 'f': if(flag==0)
                 {
                   a[2][3]='X';
