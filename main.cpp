@@ -6,6 +6,8 @@ static int flag=0;
 
 class initiate
 {
+    
+    int k,l,m=0;
 protected:
 int i,j;
 char a[3][3];
@@ -64,19 +66,6 @@ cout<<"\n";
 
 }
 
-
-
-void tictac::get()
-{
-   int x=0;
-  char ch;
-  char xo;
-   while(i<=9)
-   {
-        cout<<"Enter the positional alphabet (Press . to exit)\n";
-       cin>>ch;
-   switch(ch)
-   {
 
     case 'a': if(flag==0)
                 {
